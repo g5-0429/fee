@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Mayank Singla" />
+    <title>Flex Box</title>
+    <link rel= "stylesheet" href="" />
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100dvh;
+            font-family: algerian;
+            font-size: 16px;
+            background-color: white;
+            color: white;
+        }
+        section{
+            padding: 10px;
+        }
+        .box{
+            background-color: darkred;
+            padding: 1rem;
+            color: white;
+        }
+
+        .gc{
+            display: grid;
+            gap: 0.5rem;
+            grid-template-columns: 150px 250px;   /* width of columns */
+            grid-template-rows: repeat(3,150px);  /* height of rows  */
+            place-content: center;                /* center whole grid */
+        }
+
+        @media (min-width:767px) {
+            .gc{
+                grid-template-columns: 200px 200px 200px;  /* repeat(3,200px)  */
+                grid-template-rows: 200px 200px;
+            }
+        }
+
+        @media (min-width:1024px) {
+             .gc{
+                grid-template-columns: 200px 200px 200px 200px;
+                grid-template-rows: 200px 200px ;
+            }
+            #m6{
+            grid-column: 2/ -1;
+            }
+        }
+        
+        
+
+        
+    </style>
+</head>
+<body>
+    <section class="box" style="height: 10vh"> 
+    <span style= "font-size:2rem; margin-right:1rem"> &#9812 </span> Header/NavBar </section>
+    <section
+    class="box gc"
+    style= "height: 80vh; background-color: white"
+    >
+    <main class="box" id="m1">Content-1</main> 
+    <main class="box" id="m2">Content-2</main> 
+    <main class="box" id="m3">Content-3</main>
+    <main class="box" id="m4">Content-4</main> 
+    <main class="box" id="m5">Content-5</main>
+    <main class="box" id="m6">Content-6</main> 
+ 
+  </section>
+
+    <section
+    class= "box"
+    style="position: absolute; bottom:0; left:0; height:10vh; width:100%">
+    <span style="font-size:1.5rem; margin-right:1rem">&#9776</span>
+    Footer </section>
+    
+</body>
+</html>

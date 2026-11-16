@@ -1,0 +1,9 @@
+Q1: write max 50 words on the most iimportant topic u think in frontend and then summarize them in less than 10 words.
+ans:
+topic : npm
+npm stands  for node packet manager,it comes with node.js software.
+like registry of our property in government records  same way it is the largest software registry in the world, hosting JavaScript packages.
+npm init – it creates a new package.json file for our project.
+npm install  vite@latest – Downloads and installs a package into your project.
+npm update – updates installed packages to newer versions.
+summary:npm is the most practical manager with massive ecosystem.

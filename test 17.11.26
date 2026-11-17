@@ -1,0 +1,9 @@
+Q1: 2 most important topics with min of 25 words and maximum of 50 words also give summary in 2-5 words.
+topic:json
+JSON stands for JavaScript Object Notation ,it is a lightweight format for storing and transporting data and often used when data is sent from a server to a web page,the data in JSON is written as name/value pairs, just like JavaScript object properties.
+summary:
+JSON is "self-describing" and easy to understand
+topic:hooks
+React Hooks are built-in functions that let us use state and other React capabilities inside functional components without writing class components and provide a more direct API to React concepts like props, state, context, refs.
+summary:
+react hooks helps to make developer work easy.

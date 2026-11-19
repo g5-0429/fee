@@ -1,9 +1,31 @@
+test   17-11-26
 Q1: 2 most important topics with min of 25 words and maximum of 50 words also give summary in 2-5 words.
 topic:json
-JSON stands for JavaScript Object Notation ,it is a lightweight format for storing and transporting data and often used when data is sent from a server to a web page,the data in JSON is written as name/value pairs, just like JavaScript object properties.
+JSON stands for javaScript object notation ,it is a lightweight format for storing and transporting data
+it is often used when data is sent from a server to a web page,the data in JSON is written as name/value pairs,
+just like javaScript object properties.
 summary:
 JSON is "self-describing" and easy to understand
 topic:hooks
-React Hooks are built-in functions that let us use state and other React capabilities inside functional components without writing class components and provide a more direct API to React concepts like props, state, context, refs.
+react hooks are built-in functions that let us use state and other react capabilities
+inside functional components without writing class components and provide a more direct API
+to React concepts like props, state, context, refs.
 summary:
 react hooks helps to make developer work easy.
+
+
+test  19-11-26
+Q1: 3 most important topics with min of 25 words and maximum of 50 words also give summary in 2-5 words.
+topic:JSX
+JSX is a javascript syntax extension that let us to write HTML-like markup inside JavaScript files,
+we use it mainly while using react in web-devlopment and helpful in render variables and  function calls.
+summary:
+JSX is easy  way  to create a dynamic and interactive UI.
+topic:DOM 
+DOM manipulation enables updating the content, structure, or styling of a page without reloading the webpage
+it allows changing content, attributes, and styles dynamically.
+summary: it helps in making web application faster.
+topic: React Router
+React router is a library used in react to manage client-side routing by mapping URL paths to components by updating only required components instead of the whole webpage
+provides flexible and efficient routing capabilities for React applications.
+summary: it helps in making multi-page application.
